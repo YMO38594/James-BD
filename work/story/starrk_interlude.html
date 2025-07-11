@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bleach Chronicles: Starrk's Interlude</title>
+          <link rel="icon" href="Bleach%20Part%203%20cover%20art.jpeg" type="image/png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #c00;
+      --primary-dark: #900;
+      --gold: #ffd700;
+      --soul-silver: #c0c0c0;
+      --bg-dark: #0a0a0a;
+      --text-light: #f0f0f0;
+      --starrk-blue: #4682B4;
+      --hueco-mundo: #00688B;
+    }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-light);
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      background-image:
+        radial-gradient(circle at 20% 30%, rgba(70, 130, 180, 0.2) 0%, transparent 25%),
+        radial-gradient(circle at 80% 70%, rgba(200, 0, 0, 0.15) 0%, transparent 25%),
+        url('https://i.imgur.com/7QZJ9yP.png');
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(10, 10, 10, 0.9);
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 800px;
+      padding: 2rem;
+      margin: 2rem auto;
+      position: relative;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--starrk-blue);
+      padding-bottom: 1rem;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.5rem;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+      letter-spacing: 2px;
+    }
+
+    .subtitle {
+      color: var(--soul-silver);
+      font-size: 1.1rem;
+      font-style: italic;
+    }
+
+    .dialogue-container {
+      background: rgba(26, 26, 26, 0.8);
+      border-left: 4px solid var(--starrk-blue);
+      padding: 2rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+
+    .dialogue-container::after {
+      content: '';
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 100px;
+      height: 100px;
+      background: url('https://i.imgur.com/JjZQZ9Z.png') no-repeat;
+      background-size: contain;
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    .scene {
+      margin-bottom: 3rem;
+    }
+
+    .character {
+      font-family: 'Cinzel', serif;
+      font-weight: bold;
+      color: var(--gold);
+      margin: 1.5rem 0 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .starrk {
+      color: var(--starrk-blue);
+    }
+
+    .all-father {
+      color: #8B0000;
+    }
+
+    .dialogue {
+      margin-left: 1.5rem;
+      padding-left: 1rem;
+      border-left: 2px solid var(--starrk-blue);
+      font-size: 1.1rem;
+    }
+
+    .action {
+      font-style: italic;
+      color: var(--soul-silver);
+      margin: 1rem 0;
+      padding-left: 1rem;
+      border-left: 1px dashed var(--starrk-blue);
+    }
+
+    .highlight {
+      color: var(--gold);
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: var(--soul-silver);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--starrk-blue);
+      padding-top: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>STARRK'S INTERLUDE</h1>
+      <div class="subtitle">A moment between the Primera Espada and the All-Father</div>
+    </div>
+
+    <div class="dialogue-container">
+      <div class="scene">
+        <div class="character starrk">COYOTE STARRK</div>
+        <div class="dialogue">"So you're going off to die. Again." His voice carries its usual languid disinterest, but there's an edge beneath the apathy.</div>
+
+        <div class="action">Starrk leans against a golden pillar, hiding in its shadow. His posture, the picture of indifference. As if he was done with the world and everything in it. And with the flora fiasco earlier that week, he had every right to be. But his golden eyes track the All-Father's movements with an unnatural focus.</div>
+
+        <div class="character all-father">THE ALL-FATHER</div>
+        <div class="dialogue">"No." The word lands with finality. "This time, I'm going off to live. For the first time."</div>
+
+        <div class="character starrk">COYOTE STARRK</div>
+        <div class="dialogue">(shaking his head) "Sounds poetic. You've been spending too much time around Nell."</div>
+
+        <div class="character all-father">THE ALL-FATHER</div>
+        <div class="dialogue">"You're in command while I'm gone." The air grows heavy with reiatsu. "Don't watch over me, Heimdall. Watch over <span class="highlight">them</span>."</div>
+
+        <div class="action">The shift is instantaneous. Starrk's habitual slouch straightens as if pulled by strings, his golden eyes widening as they lock onto his King.</div>
+
+        <div class="action">The All-Father had always carried himself with quiet authority, a whimsical demeanor that put even the most battle-hardened warriors at ease. But there was not a trace of it now. And it showed in his voice. Powerful and domineering, yet always being used to say the most ridiculous things. His voice was always more suited towards a semi-tyrannical <span class="highlight">Overlord</span> than a man who boxed with a gillian the size of Hueco Mundo for fun.</div>
+
+        <div class="action">For the first time, Starrk feels the full force of his King's power pressing against his senses - not as an attack, but as a <span class="highlight">command</span> that bypasses conscious thought and speaks directly to the soul.</div>
+
+        <div class="character starrk">COYOTE STARRK</div>
+        <div class="action">Pushing Heimdall further then he ever has before, Starrk pierces the veil of time and says..</div>
+
+        <div class="dialogue">"I see a hundred thousand futures with every breath." His voice drops to a whisper. "Most of them... end with you hanging."</div>
+
+        <div class="character all-father">THE ALL-FATHER</div>
+        <div class="dialogue">"And some?" There's no fear in the question, only curiosity.</div>
+
+        <div class="character starrk">COYOTE STARRK</div>
+        <div class="dialogue">"Some don't." A ghost of his usual smirk appears. "I'll take that as hope."</div>
+
+        <div class="action">With that, Starrk closes his eyes and turns inward. Centuries of battle, of loneliness, of reluctant leadership - all distilled into this single moment of decision.</div>
+
+        <div class="action">He finds what he seeks buried deep - changed by time, but fundamentally unbroken. The sensation that follows is both familiar and alien: his soul splitting once more. But where once it had been an act of desperate isolation, now it is a <span class="highlight">promise</span>.</div>
+
+        <div class="action">When he opens his eyes, he extends his arms toward his King. Cradled within them: a tiny, squirming bundle - a newborn child with wisps of dark hair and golden eyes that already seem far too knowing.</div>
+
+        <div class="character all-father">THE ALL-FATHER</div>
+        <div class="dialogue">(deadpan) "If my problems could be dealt with by diapers and ear-piercing wails, I would have made sure you were the first to know."</div>
+
+        <div class="action">The most powerful being in existence receives a sharp smack to the back of his head for his troubles.</div>
+
+        <div class="character starrk">COYOTE STARRK</div>
+        <div class="dialogue">(equally deadpan) "For a supposedly omniscient guy, you are really stupid." He gently retrieves the now-crying infant. "When you come back, do so with a name for this little one as well, okay?"</div>
+
+        <div class="action">Without waiting for a response, Starrk turns on his heel and walks away, the child cradled protectively against his chest. Stepping out of the pillar's shadow, and into the warm, golden-light.</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href="Main.html">Back to Main</a>
+      <br>
+      Bleach Chronicles © |
+    </div>
+  </div>
+
+</body>
+</html>

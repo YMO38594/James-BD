@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <style>
+        :root {
+            --primary: #c00;
+            --primary-dark: #900;
+            --gold: #ffd700;
+            --soul-silver: #c0c0c0;
+            --bg-dark: #0a0a0a;
+            --text-light: #f0f0f0;
+            --asgard-gold: #D4AF37;
+            --hueco-blue: #00688B;
+            --hell-crimson: #DC143C;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--bg-dark);
+            color: var(--text-light);
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* Header Styles */
+        .story-header {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: linear-gradient(to right, rgba(212, 175, 55, 0.2), rgba(0, 104, 139, 0.2));
+            border-bottom: 1px solid var(--primary);
+            position: relative;
+        }
+
+        .story-header h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 3rem;
+            color: var(--gold);
+            text-shadow: 0 0 10px rgba(200, 0, 0, 0.5);
+            letter-spacing: 3px;
+            margin-bottom: 1rem;
+        }
+
+        .story-header .subtitle {
+            color: var(--soul-silver);
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Act Header */
+        .act-header {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            color: var(--gold);
+            text-align: center;
+            margin: 3rem 0;
+            padding: 1rem;
+            border-top: 1px solid var(--primary);
+            border-bottom: 1px solid var(--primary);
+        }
+
+        /* Scene Container */
+        .scene-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Location Tag */
+        .location {
+            font-family: 'Cinzel', serif;
+            font-size: 1.3rem;
+            color: var(--gold);
+            margin: 2rem 0 1rem;
+            padding-left: 1rem;
+            border-left: 3px solid var(--primary);
+        }
+
+        /* Scene Description */
+        .scene-description {
+            font-style: italic;
+            color: var(--soul-silver);
+            margin-bottom: 2rem;
+            padding-left: 1rem;
+            border-left: 1px dashed var(--primary);
+        }
+
+        /* Character Dialogue */
+        .character {
+            font-family: 'Cinzel', serif;
+            font-weight: bold;
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        .character.asgard {
+            color: var(--asgard-gold);
+        }
+
+        .character.hueco {
+            color: var(--hueco-blue);
+        }
+
+        .character.hell {
+            color: var(--hell-crimson);
+        }
+
+        .character.soul-reaper {
+            color: #8B0000;
+        }
+
+        /* Dialogue */
+        .dialogue {
+            margin-left: 2rem;
+            padding-left: 1rem;
+            border-left: 2px solid var(--primary);
+            font-size: 1.1rem;
+        }
+
+        /* Action */
+        .action {
+            font-style: italic;
+            color: var(--soul-silver);
+            margin: 1rem 0;
+            padding-left: 1rem;
+            border-left: 1px dashed var(--primary);
+        }
+
+        /* Special Text */
+        .highlight {
+            color: var(--gold);
+            font-weight: bold;
+        }
+
+        .power-text {
+            color: var(--asgard-gold);
+            text-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+        }
+
+        /* Footer */
+        .story-footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            border-top: 1px solid var(--primary);
+            color: var(--soul-silver);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .story-header h1 {
+                font-size: 2rem;
+            }
+
+            .act-header {
+                font-size: 1.8rem;
+            }
+
+            .scene-container {
+                padding: 0 1rem;
+            }
+        }
+
+        /* Scene Transition */
+        .scene-transition {
+            text-align: center;
+            margin: 2rem 0;
+            color: var(--soul-silver);
+            font-style: italic;
+        }
+    </style>
+  <title>Burden</title>
+  <link rel="shortcut icon" href="Bleach%20Part%203%20cover%20art.jpeg" type="image/x-icon">
+</head>
+<body>
+
+<div class="act-header">THE BURDEN OF KINGS</div>
+
+<div class="location">[THE ALL-FATHER'S VISION]</div>
+<div class="scene-description">
+    The All-Father opened his eyes to sunlight.<br>
+    Cherry blossoms drifted lazily through the streets of the Seireitei. The air smelled of fresh tatami and warm sake. At his side, Kazuma leaned against a wooden railing, grinning as he tossed back a cup.
+</div>
+
+<div class="character asgard">KAZUMA</div>
+<div class="dialogue">
+    "Took you long enough to wake up, old man," Kazuma teased, nudging him with an elbow. "The Quincy delegation's waiting. You're the one who brokered this peace, after all."
+</div>
+
+<div class="action">
+    Peace.<br>
+    The word settled into the All-Father's chest like a stone. He looked around—everyone was here.<br>
+    Rukia and Renji bickered nearby, their swords sheathed. Byakuya stood with uncharacteristic ease, speaking quietly with Yoruichi. Even Yamamoto—alive, whole—nodded at him in respect.<br>
+    It was perfect.<br>
+    Too perfect.
+</div>
+
+<div class="character asgard">THE ALL-FATHER</div>
+<div class="dialogue">
+    "Something's wrong,"
+</div>
+
+<div class="character asgard">KAZUMA</div>
+<div class="dialogue">
+    "Huh?"
+</div>
+
+<div class="action">
+    The sky cracked.<br>
+    Like glass struck by a hammer, the world splintered.
+</div>
+
+<div class="scene-transition">________________________________________</div>
+
+<div class="location">[THE TRUTH]</div>
+<div class="action">
+    The All-Father gasped as the vision dissolved. He stood now before Yggdrasil, the World Tree—its branches coiled around him like the ribs of a great beast. His own spear impaled him through the chest, pinning him against the trunk. Blood dripped onto roots that pulsed with buried memories—his failures, his losses, every time he had fallen short.
+</div>
+
+<div class="character asgard">YGGDRASIL</div>
+<div class="dialogue">
+    "You cannot outrun the weight of mortality," the tree whispered in a voice like wind through dead leaves. "You were never meant to."
+</div>
+
+<div class="action">
+    The vision reset.
+</div>
+
+<div class="scene-transition">________________________________________</div>
+
+<div class="location">[THE SECOND CYCLE]</div>
+<div class="action">
+    This time, the world was flawed.<br>
+    The Quincy treaty had loopholes. Friends argued. Kazuma's smile was strained.<br>
+    So the All-Father fixed it.<br>
+    He peered into every possible future, adjusted every variable. He averted wars before they started, healed wounds before they festered.<br>
+    But then—
+</div>
+
+<div class="character soul-reaper">RUKIA KUCHIKI</div>
+<div class="dialogue">
+    "Stop it. I don't want to know how I die! What kind of curse is that?"
+</div>
+
+<div class="character soul-reaper">RENJI ABARAI</div>
+<div class="dialogue">
+    "You're not you anymore. You're just... a god playing human."
+</div>
+
+<div class="character asgard">KAZUMA</div>
+<div class="dialogue">
+    "You're trying to carry everything," he said quietly, pouring two cups of sake—one for himself, one for the grave at his feet. "But some burdens should be shared. Some things... have to hurt."
+</div>
+
+<div class="action">
+    The All-Father stood alone as centuries blurred.<br>
+    He watched as his friends grew old.<br>
+    As they died.<br>
+    As the world moved on without him.
+</div>
+
+<div class="scene-transition">________________________________________</div>
+
+<div class="location">[THE CHOICE]</div>
+<div class="action">
+    The tree's voice returned, softer now.
+</div>
+
+<div class="character asgard">YGGDRASIL</div>
+<div class="dialogue">
+    "You have the power to be a god. But gods do not laugh with friends. Gods do not fail and learn. Gods do not live."
+</div>
+
+<div class="action">
+    The All-Father looked down at his hands—once bloodied, now pristine.
+</div>
+
+<div class="character asgard">YGGDRASIL</div>
+<div class="dialogue">
+    "What are you?"
+</div>
+
+<div class="character asgard">THE ALL-FATHER</div>
+<div class="dialogue">
+    "A man,"
+</div>
+
+<div class="character asgard">YGGDRASIL</div>
+<div class="dialogue">
+    "Then act like one."
+</div>
+
+<div class="action">
+    The spear shattered.
+</div>
+
+<div class="scene-transition">___________________________________________________________________________________________</div>
+
+<div class="location">[THE DEMIURGE'S TRIAL]</div>
+<div class="action">
+    The All-Father stood before the shifting, faceless mass of the Demiurge—the embodiment of all he had refused to acknowledge in himself. It pulsed like a living void, whispering in voices both familiar and alien.
+</div>
+
+<div class="character asgard">THE DEMIURGE</div>
+<div class="dialogue">
+    "You have walked the Path of Burden," it intoned, its form rippling into the shape of Kazuma, then Yggdrasil, then the spear that had impaled him. "But you have not yet named me."
+</div>
+
+<div class="action">
+    The All-Father's hands clenched. He remembered:<br>
+    The perfect world, where he had been everything to everyone—flawless, unburdened, a lie.<br>
+    The decaying world, where he had outlived them all—a punishment.
+</div>
+
+<div class="character asgard">THE DEMIURGE</div>
+<div class="dialogue">
+    "You thought the burden was the weight of duty. But the true burden was denial."
+</div>
+
+<div class="action">
+    Denial of his limits.<br>
+    Denial of his grief.<br>
+    Denial that he was ever just a man.<br>
+    The All-Father exhaled.
+</div>
+
+<div class="character asgard">THE ALL-FATHER</div>
+<div class="dialogue">
+    "You are the part of me that believed I could be infinite."
+</div>
+
+<div class="action">
+    The Demiurge screamed, its form collapsing into a single point of light—not vanishing, but integrating. The All-Father's scars burned as the truth seared into his soul:<br>
+    "A king is not a god. A god is not a king. To rule is to choose—not to control."<br>
+    The weight lifted. Not because it was gone, but because he stopped fighting it.
+</div>
+
+<div class="scene-transition">________________________________________</div>
+
+<div class="location">[EPILOGUE: THE NAME]</div>
+<div class="action">
+    When the All-Father opened his eyes again, he stood at the crossroads of the four paths. The Demiurge awaited him, its form shifting between all the faces he had ever worn.
+</div>
+
+<div class="character asgard">THE DEMIURGE</div>
+<div class="dialogue">
+    "Who are you?" it challenged.
+</div>
+
+<div class="action">
+    He smiled—small, weary, human.
+</div>
+
+<div class="character asgard">THE ALL-FATHER</div>
+<div class="dialogue">
+    "I am the one who stumbles. The one who bleeds. The one who tries."
+</div>
+
+<div class="action">
+    And with that, he chose his name.
+</div>
+
+<div class="ending-tag">[Ending I.]</div>
+
+</body>
+</html>
